@@ -1,15 +1,90 @@
+import wynGrowth from "../assets/wyn-growth-sub.png";
+import wynCrm from "../assets/wyn-crm-sub.png";
+import wynReach from "../assets/wyn-reach-sub.png";
+import wynLearn from "../assets/wyn-learn-sub.png";
+import wynStudy from "../assets/wyn-study-sub.png";
+import wynDesk from "../assets/wyn-desk-sub.png";
+import wynForce from "../assets/wyn-force-sub.png";
+import wynDr from "../assets/wyn-dr-sub.png";
+
 export const TOOLS = [
-  { id: "growth", name: "WYN Growth", icon: "TrendingUp", color: "#6c4cf1", status: "Active", plan: "Pro", usage: 78, stat: "14.2k followers gained", url: "growth.wynsync.tech" },
-  { id: "crm", name: "WYN CRM", icon: "Users", color: "#06b6d4", status: "Active", plan: "Business", usage: 55, stat: "847 contacts", url: "crm.wynsync.tech" },
-  { id: "reach", name: "WYN Reach", icon: "Globe", color: "#f59e0b", status: "Active", plan: "Pro", usage: 91, stat: "184k social reach", url: "reach.wynsync.tech" },
+  {
+    id: "growth",
+    name: "WYN Growth",
+    image: wynGrowth,
+    color: "#6c4cf1",
+    status: "Active",
+    plan: "Pro",
+    usage: 78,
+    stat: "14.2k followers gained",
+    url: "growth.wynsync.tech",
+  },
+
+  {
+    id: "crm",
+    name: "WYN CRM",
+    image: wynCrm,
+    color: "#06b6d4",
+    status: "Active",
+    plan: "Business",
+    usage: 55,
+    stat: "847 contacts",
+    url: "crm.wynsync.tech",
+  },
+
+  {
+    id: "reach",
+    name: "WYN Reach",
+    image: wynReach,
+    color: "#f59e0b",
+    status: "Active",
+    plan: "Pro",
+    usage: 91,
+    stat: "184k social reach",
+    url: "reach.wynsync.tech",
+  },
 ];
 
 export const LOCKED_TOOLS = [
-  { id: "doctor", name: "WYN Doctor", icon: "Cpu", color: "#10b981", desc: "AI-powered health diagnostics for your business." },
-  { id: "learn", name: "WYN Learn", icon: "Layers", color: "#f43f5e", desc: "Adaptive learning platform for your team." },
-  { id: "study", name: "WYN Study", icon: "Star", color: "#8b5cf6", desc: "AI-curated research and intelligence briefs." },
-  { id: "desk", name: "WYN Desk", icon: "MessageSquare", color: "#06b6d4", desc: "Omnichannel support hub with AI triage." },
-  { id: "force", name: "WYN Force", icon: "Zap", color: "#f97316", desc: "Automation engine for complex workflows." },
+  {
+    id: "doctor",
+    name: "WYN Doctor",
+    image: wynDr,
+    color: "#10b981",
+    desc: "AI-powered health diagnostics for your business.",
+  },
+
+  {
+    id: "learn",
+    name: "WYN Learn",
+    image: wynLearn,
+    color: "#f43f5e",
+    desc: "Adaptive learning platform for your team.",
+  },
+
+  {
+    id: "study",
+    name: "WYN Study",
+    image: wynStudy,
+    color: "#8b5cf6",
+    desc: "AI-curated research and intelligence briefs.",
+  },
+
+  {
+    id: "desk",
+    name: "WYN Desk",
+    image: wynDesk,
+    color: "#06b6d4",
+    desc: "Omnichannel support hub with AI triage.",
+  },
+
+  {
+    id: "force",
+    name: "WYN Force",
+    image: wynForce,
+    color: "#f97316",
+    desc: "Automation engine for complex workflows.",
+  },
 ];
 
 export const PLATFORMS = [
